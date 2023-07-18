@@ -1,2 +1,13 @@
-package com.cydeo.model;public class User {
+package com.cydeo.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class User {
+
+    private String id;
+    private String name;
+    private String email;
 }
