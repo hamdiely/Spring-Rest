@@ -1,6 +1,6 @@
 package com.cydeo.service;
 
-import com.cydeo.controller.error.EmployeeNotFoundException;
+import com.cydeo.error.EmployeeNotFoundException;
 import com.cydeo.model.Employee;
 import org.springframework.stereotype.Service;
 
